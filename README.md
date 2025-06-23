@@ -49,28 +49,28 @@ Redirects to login page
 **Screenshot of Final Layout**
 
 ### Login Page
-![Login Page](public/Screenshots/Screenshot 2025-06-23 at 11.09.47 PM.png)
+![Login-Page](public/Screenshots/Login.png)
 
 ### Signup Form
-![Signup Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.09.39 PM.png)
+![Signup-Page](public/Screenshots/Signup.png)
 
 ### Home Page
-![Home](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.09.55 PM.png)
+![Home](public/Screenshots/Home.png)
 
 ### Dashboard
-![Dashboard](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.22 PM.png)
+![Dashboard](public/Screenshots/Dashboard.png)
 
 ### Users Page
-![Users Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.29 PM.png)
+![Users-Page](public/Screenshots/Users.png)
 
 ### Home Page- Dark Mode
-![Home](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.37 PM.png)
+![Home-Dark](public/Screenshots/Home-Dark-Mode.png)
 
 ### Dashboard- Dark Mode
-![Dashboard](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.44 PM.png)
+![Dashboard-Dark](public/Screenshots/Dashboard-Dark-Mode.png)
 
 ### Users Page- Dark Mode
-![Users Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.50 PM.png)
+![Users-Page-Dark](public/Screenshots/Users-Dark-Mode.png)
 
 
 **Challenges & Learning**
