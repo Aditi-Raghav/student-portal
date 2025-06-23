@@ -48,6 +48,31 @@ Redirects to login page
 
 **Screenshot of Final Layout**
 
+### Login Page
+![Login Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.09.47 PM.png)
+
+### Signup Form
+![Signup Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.09.39 PM.png)
+
+### Home Page
+![Home](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.09.55 PM.png)
+
+### Dashboard
+![Dashboard](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.22 PM.png)
+
+### Users Page
+![Users Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.29 PM.png)
+
+### Home Page- Dark Mode
+![Home](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.37 PM.png)
+
+### Dashboard- Dark Mode
+![Dashboard](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.44 PM.png)
+
+### Users Page- Dark Mode
+![Users Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.10.50 PM.png)
+
+
 **Challenges & Learning**
 Tailwind Layouts: Building a responsive and styled UI using Tailwind helped improve my understanding of CSS.
 Sticky Navbar + Responsive Layouts: Positioning and responsiveness were tricky to get right, especially with overlapping content and scroll behaviors.
