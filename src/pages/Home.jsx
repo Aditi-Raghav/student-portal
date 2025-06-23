@@ -29,7 +29,7 @@ function Home() {
       </div>
 
 
-      <div className="mt-10 bg-white dark:bg-[#2f2f2f] p-6 rounded-xl shadow-md border border-purple-100 dark:border-[#444] animate-slideInSkew max-w-xl mx-auto">
+      <div className="mt-10 bg-white dark:bg-[#2f2f2f] p-6 rounded-xl shadow-md border border-purple-100 dark:border-[#444] max-w-xl mx-auto hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out">
         <h2 className="text-2xl font-semibold text-purple-800 dark:text-white mb-4">🎓 Student Details</h2>
   
         <div className="text-left space-y-2 text-purple-900 dark:text-purple-300">
@@ -60,3 +60,4 @@ export default Home;
 // book image- https://cdn-icons-png.flaticon.com/512/29/29302.png
 // file image- https://www.iconpacks.net/icons/2/free-file-icon-1453-thumb.png
 // {studentImg}, https://media.istockphoto.com/id/2149186896/vector/girl-working-on-laptop-vector-illustration-working-from-home-and-freelance-concept.jpg?s=612x612&w=0&k=20&c=JD3Lc9oJaBtF4loCBhfq_xitz8rQyJCN1u7xSQDyrtw=,, https://thumbs.dreamstime.com/b/student-studying-laptop-vector-icon-symbol-isolated-white-background-196225242.jpg
+// hover on image- hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out

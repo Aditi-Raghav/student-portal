@@ -1,12 +1,63 @@
-# React + Vite
+**Student Portal – React + Tailwind CSS**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive student portal built with React, Tailwind CSS, and React Router DOM, featuring authentication, a sticky navbar, API integration, and a user dashboard. This project was bootstrapped using a React + Vite starter template.
 
-Currently, two official plugins are available:
+**Features Implemented**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1) Authentication Pages
 
-## Expanding the ESLint configuration
+Login Page: Email + password fields
+Dummy login validation with **hardcoded credentials (email-student@example.com, password- 123456)**
+Redirects to dashboard on success
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Signup Page
+Form with name, email, and password
+Redirects to login
+
+2) Sticky Top Navbar
+Sticky on scroll
+Includes:
+   App name
+   Dark Mode Button
+   Navigation links: Home | Users | Dashboard | Username | Logout
+   Logged-in user name with icon on the right
+
+3) Home Page
+Welcome message: "Welcome to Student Portal, manage your academic details in one place."
+Latest Announcements
+Student Details: Name, Email, Enrollment Number, Contact Number
+
+4) Users Page
+Fetches user data from https://jsonplaceholder.typicode.com/users
+Displays data in a responsive card layout
+Shows: Name (darker), Email, Phone, Website
+Includes loading and error states
+
+5) Dashboard Page
+Displays static summary cards:
+GPA
+Attendance
+Subjects
+Fee Status
+Assignment Completion Percentage
+Responsive layout using Tailwind Flex
+
+6) Logout Functionality
+Clears dummy authentication state
+Redirects to login page
+
+**Screenshot of Final Layout**
+
+**Challenges & Learning**
+Tailwind Layouts: Building a responsive and styled UI using Tailwind helped improve my understanding of CSS.
+Sticky Navbar + Responsive Layouts: Positioning and responsiveness were tricky to get right, especially with overlapping content and scroll behaviors.
+
+**Tech Stack**
+React
+React Router DOM
+Tailwind CSS
+fetch
+
+**Extra Features**
+🌙 Dark Mode using Tailwind's dark: classes with Black and Light Purple theme
+✨ Animations on card hover and page load using Tailwind transitions
