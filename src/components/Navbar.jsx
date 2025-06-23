@@ -12,7 +12,7 @@ function Navbar({ user, onLogout, darkMode, setDarkMode }) {
 
   return (
     <nav className="sticky top-0 bg-white dark:bg-[#1f1f1f] shadow-md z-50 overflow-x-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex flex-col md:flex-row md:items-center md:justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center justify-between">
         {/* Left: Brand */}
         <div className="flex items-center justify-between w-full md:w-auto">
         <div className="text-2xl font-bold text-purple-700 dark:text-white mr-4">
@@ -35,13 +35,7 @@ function Navbar({ user, onLogout, darkMode, setDarkMode }) {
           aria-label="Toggle menu"
         >
           {/* Hamburger icon */}
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             {menuOpen ? (
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             ) : (
@@ -53,19 +47,13 @@ function Navbar({ user, onLogout, darkMode, setDarkMode }) {
         </div>
 
         {/* Middle + Right Nav: hidden on mobile when closed */}
-        <div
-          className={`flex flex-col items-start md:flex-row md:items-center gap-4 md:gap-6 w-full md:w-auto mt-2 md:mt-0 px-4 md:px-0
-            ${menuOpen ? 'flex' : 'hidden'}
-          `}
-          style={{ paddingRight: 0, marginRight: 0 }}
-        >
+        <div className={`w-full md:w-auto ${menuOpen ? 'block' : 'hidden'} md:flex md:items-center md:gap-6 mt-4 md:mt-0`}>
           {/* Nav Links */}
-          <div className="w-full md:w-auto max-w-xs">
-          <div className="flex flex-col md:flex-row md:gap-6 w-full">
+          <div className={`flex flex-col md:flex-row gap-4 md:gap-6 w-full md:w-auto ${menuOpen ? 'block' : 'hidden'} md:flex`}>
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `block w-full text-lg font-medium dark:text-white ${
+                `text-lg font-medium dark:text-white ${
                   isActive ? 'underline text-purple-900' : 'text-purple-700'
                 }`
               }
@@ -76,7 +64,7 @@ function Navbar({ user, onLogout, darkMode, setDarkMode }) {
             <NavLink
               to="/users"
               className={({ isActive }) =>
-                `block w-full text-lg font-medium dark:text-white ${
+                `text-lg font-medium dark:text-white ${
                   isActive ? 'underline text-purple-900' : 'text-purple-700'
                 }`
               }
@@ -87,7 +75,7 @@ function Navbar({ user, onLogout, darkMode, setDarkMode }) {
             <NavLink
               to="/dashboard"
               className={({ isActive }) =>
-                `block w-full text-lg font-medium dark:text-white ${
+                `text-lg font-medium dark:text-white ${
                   isActive ? 'underline text-purple-900' : 'text-purple-700'
                 }`
               }
@@ -95,11 +83,10 @@ function Navbar({ user, onLogout, darkMode, setDarkMode }) {
             >
               DASHBOARD
             </NavLink>
-            </div>
           </div>
 
           {/* Right: Auth + Dark Mode */}
-          <div className="flex flex-col md:flex-row md:items-center md:space-x-6 mt-4 md:mt-0">
+          <div className="flex flex-col md:flex-row md:items-center md:space-x-6">
             {user ? (
               <>
                 <span className="flex items-center space-x-2 text-base text-purple-700 dark:text-white font-semibold">

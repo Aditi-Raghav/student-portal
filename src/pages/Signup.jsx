@@ -11,6 +11,7 @@ function Signup() {
   };
 
   return (
+    <div className="px-4 sm:px-0">
     <div className="max-w-md mx-auto mt-12 p-6 bg-white shadow-md rounded dark:bg-purple-50">
       <h2 className="text-2xl font-semibold mb-4 dark:text-black">Sign Up</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -23,6 +24,7 @@ function Signup() {
         <Link to="/login" className="text-purple-600 underline">Login</Link>
       </p>
 
+    </div>
     </div>
   );
 }
