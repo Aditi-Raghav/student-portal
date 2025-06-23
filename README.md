@@ -49,7 +49,7 @@ Redirects to login page
 **Screenshot of Final Layout**
 
 ### Login Page
-![Login Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.09.47 PM.png)
+![Login Page](public/Screenshots/Screenshot 2025-06-23 at 11.09.47 PM.png)
 
 ### Signup Form
 ![Signup Page](./screenshots/public/Screenshots/Screenshot 2025-06-23 at 11.09.39 PM.png)
